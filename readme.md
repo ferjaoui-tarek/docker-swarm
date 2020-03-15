@@ -53,12 +53,13 @@ Step 2 :  Check machine created successfully
    ```
 
 Step 3 :  SSH (connect) to docker machine
+   ```
    # docker-machine ssh manager1
-
+   ```
 Step 4 :  Initialize Docker Swarm    docker swarm init --advertise-addr MANAGER_IP
    ``` 
    # docker node ls
-    (this command will work only in swarm manager and not in worker)
+    (this command will work only in swarm manager and not in worker)   
    ``` 
 
 Step 5 :  Join workers in the swarm
